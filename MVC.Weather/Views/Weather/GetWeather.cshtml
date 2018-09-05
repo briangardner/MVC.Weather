@@ -1,0 +1,8 @@
+﻿@model MVC.Weather.Domain.DomainModel.Forecast
+
+@{
+    ViewBag.Title = "Current Weather";
+}
+
+<h2>Current Weather in @Model.CurrentObservation.Name, @Model.CurrentObservation.State </h2>
+<h3>@Model.Data.Weather[0]</h3>
